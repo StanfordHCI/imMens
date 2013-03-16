@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+* {
+	font-family: helvetica;
+    font-size: 12px;
+}
+
+#status {
+	width: 200px;
+	margin-left: 250px;
+	margin-right:auto;
+	vertical-align:middle;
+	text-align: center;
+	margin-top:250px;
+	height: 30px;
+	/*position:absolute; top:50%; height:240px; margin-top:-120px;*/
+	background: #E5FFFF;
+}
+
+.label {
+	font-size: 12px; 
+	font-weight:bold; 
+	color: black;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+	stroke: lightgray;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: lightgray;
+}
